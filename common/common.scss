@@ -613,3 +613,26 @@ html body #main-outlet {
 .title-voting {
   padding-left: 14px;
 }
+
+.d-header {
+    height: 3em;
+}
+
+.d-header .title {
+    --d-logo-height: 1.5em;
+}
+
+.d-header-icons .icon img.avatar {
+    width: 2em;
+    height: 2em;
+}
+
+.header-sidebar-toggle button {
+    margin-right: 1em;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    padding: .1em;
+}
