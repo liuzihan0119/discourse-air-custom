@@ -248,3 +248,7 @@ body.category .navigation-categories .list-container,
 .list-controls .nav-pills .list-control-toggle-link-trigger {
   color: var(--secondary);
 }
+
+.full-width .contents .topic-list .topic-list-header .topic-list-data.views {
+  display: none;
+}
