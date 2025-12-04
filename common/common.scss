@@ -631,6 +631,7 @@ html body #main-outlet {
 .topic-list .topic-excerpt {
   max-width: 100%;
   display: grid;
+  order: 2;
 }
 
 .topic-list .topic-excerpt span {
@@ -642,5 +643,5 @@ html body #main-outlet {
 }
 
 .topic-list .topic-excerpt-more {
-  margin-top: .5rem;
+  display: none;
 }
