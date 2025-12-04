@@ -160,7 +160,7 @@
 
 .topic-list .link-bottom-line {
   order: 3;
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 #site-text-logo {
@@ -642,6 +642,6 @@ html body #main-outlet {
   max-width: 100%;
 }
 
-.topic-list .topic-excerpt-more {
+.topic-list .topic-excerpt .topic-excerpt-more {
   display: none;
 }
