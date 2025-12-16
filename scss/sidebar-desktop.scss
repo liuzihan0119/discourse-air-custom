@@ -17,7 +17,7 @@
     background: var(--secondary);
   }
 
-  .contents {
+  div[class="contents"] {
     display: flex;
     flex-direction: row-reverse;
     gap: 30px;
