@@ -24,11 +24,11 @@
   }
 
   .categories-and-latest {
-    width: 70%;
+    width: 60%;
   }
 
   .custom-category-boxes-container {
-    width: 30%;
+    width: 40%;
     padding-top: 42px;
     justify-content: start;
   }
@@ -44,7 +44,7 @@
   }
 
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present {
-    width: 70px;
+    width: 65px;
     min-height: unset;
   }
 
@@ -53,8 +53,11 @@
   }
 
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: calc(100% - 100px);
-    padding: 12px 0px;
+    min-height: 82px;
   }
 
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box-heading {
