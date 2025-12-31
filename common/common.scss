@@ -649,3 +649,11 @@ html body #main-outlet {
 .d-header .title-wrapper a.topic-link {
  font-size: 1rem;
 }
+
+// button css start
+.btn {
+  &-primary, &-default {
+    white-space: nowrap;
+  }
+}
+// button css end
