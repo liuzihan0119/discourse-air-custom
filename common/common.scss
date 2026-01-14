@@ -363,7 +363,7 @@ html body #main-outlet {
     display: contents;
 
     .topic-list-data.default {
-      width: 75%;
+      width: 70%;
     }
 
     .topic-list-data.posters {
@@ -379,7 +379,7 @@ html body #main-outlet {
     }
 
     .topic-list-data.activity {
-      width: 5%;
+      width: 10%;
     }
   }
 
@@ -436,7 +436,7 @@ html body #main-outlet {
       }
 
       .topic-list-data.main-link {
-        width: 75%;
+        width: 70%;
         order: 1;
         padding-left: 1rem;
         display: flex;
@@ -453,7 +453,7 @@ html body #main-outlet {
         align-items: center;
       }
 
-      .topic-list-data.views {
+      .topic-list-data.posts {
         width: 5%;
         order: 3;
         display: flex;
@@ -461,7 +461,7 @@ html body #main-outlet {
         align-items: center;
       }
 
-      .topic-list-data.posts {
+      .topic-list-data.views {
         width: 5%;
         order: 4;
         display: flex;
@@ -470,7 +470,7 @@ html body #main-outlet {
       }
 
       .topic-list-data.age {
-        width: 5%;
+        width: 10%;
         order: 5;
         display: flex;
         justify-content: center;
