@@ -2,8 +2,26 @@
 @import "chat-desktop";
 @import "sidebar-desktop";
 
-body{
-    --d-max-width: 1200px
+body {
+  --d-max-width: 1200px;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    --d-max-width: 1100px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1919px) {
+  body {
+    --d-max-width: 1200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    --d-max-width: 1400px;
+  }
 }
 
 #reply-control:not(.fullscreen).hide-preview {
@@ -26,4 +44,20 @@ body{
 
 .sidebar-wrapper .sidebar-sections {
     padding: 1rem;
+}
+
+.menu-panel.drop-down {
+    margin-top: .5rem;
+}
+
+.select-kit .select-kit-header .selected-name {
+    padding: 0 .5rem;
+}
+
+.nav-pills>li>a, .nav-pills>li button {
+    padding: .5rem 1rem;
+}
+
+html body #main-outlet {
+    max-width: 100%;
 }
