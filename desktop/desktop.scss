@@ -7,7 +7,7 @@ body{
 }
 
 #reply-control:not(.fullscreen).hide-preview {
-    left: unset !important;
+    left: 0 !important;
     max-width: 1000px;
     margin: auto !important;
 }
